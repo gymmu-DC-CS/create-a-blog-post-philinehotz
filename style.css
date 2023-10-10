@@ -11,3 +11,18 @@ body {
 }
 
 
+h1 {
+  font-family: southland;
+  font-size: 100px;
+}
+/*Fonts from Website; https://www.dafont.com/theme.php?cat=601*/
+
+
+@font-face {
+  font-family: southland;
+  src: url(fonts/soutland\ TTF.ttf);
+}
+/*How to Add a Custom Fonts to Your Website YoutubeVideo*/
+
+
+
