@@ -10,6 +10,14 @@ body {
   font-family: sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+/*Code copied from W3Schools*/
+
+h1{
+  margin-top: 0px;
+}
 
 h1 {
   font-family: southland;
@@ -25,4 +33,41 @@ h1 {
 /*How to Add a Custom Fonts to Your Website YoutubeVideo*/
 
 
+#subtitle {
+  text-align: center;
+}
 
+#subtitle{
+  margin-top: -160px;
+  padding: 20px;
+}
+
+
+#generalInformation {
+  text-align: center; /*centering doesn't work, tried different methods*/
+  border-style: solid;
+  border-width: 10px;
+  padding: 20px;
+  width: 55%;
+}
+
+#EastAsian {
+  border-style: solid;
+  border-width: 10px;
+  padding: 20px;
+  width: 15%;
+}
+
+#EastAsian {
+  margin-top: 50px;
+}
+
+
+@font-face {
+  font-family: EastAsian;
+  src: url(fonts/EastAsianCalligraphyMingImperial-5308.ttf);
+}
+
+#EastAsian {
+  font-family: EastAsian;
+}
