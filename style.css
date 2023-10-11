@@ -71,3 +71,14 @@ h1 {
 #EastAsian {
   font-family: EastAsian;
 }
+
+#h1EastAsian {
+  font-family: EastAsian;
+  font-size: 80px;
+  text-align: center;
+}
+
+#TextEastAsian {
+  margin-top: 10px;
+  text-align: center;
+}
