@@ -51,22 +51,6 @@ h1 {
   width: 55%;
 }
 
-#EastAsian {
-  border-style: solid;
-  border-width: 10px;
-  padding: 20px;
-  width: 15%;
-}
-
-#EastAsian {
-  margin-top: 50px;
-}
-
-
-@font-face {
-  font-family: EastAsian;
-  src: url(fonts/EastAsianCalligraphyMingImperial-5308.ttf);
-}
 
 #EastAsian {
   font-family: EastAsian;
@@ -82,3 +66,65 @@ h1 {
   margin-top: 10px;
   text-align: center;
 }
+
+@font-face {
+  font-family: EastAsian;
+  src: url(fonts/EastAsianCalligraphyMingImperial-5308.ttf);
+}
+.EastAsian {
+  display: inline-block;
+  border: 10px solid black;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  font-family: EastAsian;
+  src: url(fonts/EastAsianCalligraphyMingImperial-5308.ttf);
+}
+/*Inspiration from this website: https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b*/
+
+
+@font-face {
+  font-family: SouthernAsian;
+  src: url(fonts/SouthernAsianCalligraphyGoatskinBrushPersonalUse-RG5E.ttf);
+}
+.SouthernAsian {
+  display: inline-block;
+  border: 10px solid black;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  font-family: SouthernAsian;
+  src: url(fonts/SouthernAsianCalligraphyGoatskinBrushPersonalUse-RG5E.ttf);
+}
+
+
+@font-face {
+  font-family: WesternCalligraphy;
+  src: url(fonts/WesternCalligraphyLombard.ttf);
+}
+.Western {
+  display: inline-block;
+  border: 10px solid black;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  font-family: WesternCalligraphy;
+  src: url(fonts/WesternCalligraphyLombard.ttf);
+}
+
+
+@font-face {
+  font-family: IslamicCalligraphy;
+  src: url(fonts/IslamicCalligraphyBahlullFreeVersionRegular-8M1VJ.ttf);
+}
+.Islamic {
+  display: inline-block;
+  border: 10px solid black;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  font-family: IslamicCalligraphy;
+  src: url(fonts/IslamicCalligraphyBahlullFreeVersionRegular-8M1VJ.ttf);
+}
+
+
+
+
+
+
