@@ -5,6 +5,7 @@
 }
 
 body {
+  text-align: center;
   margin: 0;
   background-color: #dcf7e3;
   font-family: sans-serif;
@@ -43,13 +44,14 @@ h1 {
 
 
 #generalInformation {
-  text-align: center; /*centering doesn't work, tried different methods*/
+  margin-left: auto;
+  margin-right: auto;
   border-style: solid;
   border-width: 10px;
   padding: 20px;
   width: 55%;
 }
-
+/*centering doesn't work, tried different methods*/
 
 @font-face {
   font-family: EastAsian;
@@ -57,9 +59,9 @@ h1 {
 }
 .EastAsian {
   display: inline-block;
-  border: 10px solid black;
-  padding: 1rem 1rem;
-  vertical-align: middle;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 10px;
   font-family: EastAsian;
   src: url(fonts/EastAsianCalligraphyMingImperial-5308.ttf);
 }
@@ -82,9 +84,9 @@ h1 {
 }
 .SouthernAsian {
   display: inline-block;
-  border: 10px solid black;
-  padding: 1rem 1rem;
-  vertical-align: middle;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 9px;
   font-family: SouthernAsian;
   src: url(fonts/SouthernAsianCalligraphyGoatskinBrushPersonalUse-RG5E.ttf);
 }
@@ -107,9 +109,9 @@ h1 {
 }
 .Western {
   display: inline-block;
-  border: 10px solid black;
-  padding: 1rem 1rem;
-  vertical-align: middle;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 9px;
   font-family: WesternCalligraphy;
   src: url(fonts/WesternCalligraphyLombard.ttf);
 }
@@ -130,9 +132,9 @@ h1 {
 }
 .Islamic {
   display: inline-block;
-  border: 10px solid black;
-  padding: 1rem 1rem;
-  vertical-align: middle;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 1px;
   font-family: IslamicCalligraphy;
   src: url(fonts/IslamicCalligraphyBahlullFreeVersionRegular-8M1VJ.ttf);
 }
