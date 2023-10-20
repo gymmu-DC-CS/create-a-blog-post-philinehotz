@@ -13,17 +13,11 @@ body {
 
 h1 {
   text-align: center;
-}
-/*Code copied from W3Schools*/
-
-h1{
   margin-top: 0px;
-}
-
-h1 {
   font-family: southland;
   font-size: 100px;
 }
+/*Code copied from W3Schools*/
 /*Fonts from Website; https://www.dafont.com/theme.php?cat=601*/
 
 
@@ -53,6 +47,12 @@ h1 {
 }
 /*centering doesn't work, tried different methods*/
 
+p {
+  white-space: nowrap;
+}
+
+/*for the space a single <p><p/> in the html file*/
+
 @font-face {
   font-family: EastAsian;
   src: url(fonts/EastAsianCalligraphyMingImperial-5308.ttf);
@@ -75,10 +75,6 @@ h1 {
 #TextEastAsian {
   margin-top: 10px;
   text-align: center;
-}
-
-#EAauswahlChina {
-  
 }
 
 
@@ -151,5 +147,3 @@ h1 {
   margin-top: 10px;
   text-align: center;
 }
-
-
