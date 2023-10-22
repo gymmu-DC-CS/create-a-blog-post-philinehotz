@@ -76,6 +76,16 @@ p {
   text-align: center;
 }
 
+#EAauswahlChina {
+  width: 450px;
+}
+
+#ChinaWord {
+  width: 200px;
+  transform: rotate(20deg);
+}
+
+
 
 @font-face {
   font-family: SouthernAsian;
@@ -151,6 +161,9 @@ p {
 }
 
 
+#IslamicBody {
+  background-color: rgba(99, 53, 142, 0.795);
+}
 
 
 @font-face {
@@ -173,5 +186,13 @@ p {
 #TextIslamic {
   margin-top: 10px;
   text-align: center;
+}
+
+#picislamic {
+  width: 450px
+}
+
+#ramadan {
+  width: 100px;
 }
 
