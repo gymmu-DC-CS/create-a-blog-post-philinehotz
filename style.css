@@ -7,7 +7,6 @@
 body {
   text-align: center;
   margin: 0;
-  background-color: #dcf7e3;
   font-family: sans-serif;
 }
 
@@ -100,8 +99,9 @@ p {
   text-align: center;
 }
 
-
-
+#WesternBody{
+  background-color: rgba(165, 42, 42, 0.784);
+}
 
 @font-face {
   font-family: WesternCalligraphy;
@@ -125,6 +125,33 @@ p {
   text-align: center;
 }
 
+#picwestern {
+  width: 450px
+}
+
+#cowboy {
+  width: 150px;
+  height: 150x;
+  position: relative;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {left:400px; top:-250px;}
+  25%  {left:400px; top:-150px;}
+  50%  {left:400px; top:-50px;}
+  75%  {left:400px; top:150px;}
+  100% {left:400px; top:200px;}
+}
+
+#p1 {
+  height: 100px;
+}
+
+
+
 
 @font-face {
   font-family: IslamicCalligraphy;
@@ -147,3 +174,4 @@ p {
   margin-top: 10px;
   text-align: center;
 }
+
