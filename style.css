@@ -57,6 +57,11 @@ p {
   width: 100px;
 }
 
+
+#indexBody {
+  background-color: bisque;
+}
+
 @font-face {
   font-family: EastAsian;
   src: url(fonts/EastAsianCalligraphyMingImperial-5308.ttf);
