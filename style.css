@@ -62,6 +62,9 @@ p {
   background-color: bisque;
 }
 
+/*End of css code for index.html file*/
+
+
 @font-face {
   font-family: EastAsian;
   src: url(fonts/EastAsianCalligraphyMingImperial-5308.ttf);
@@ -100,12 +103,12 @@ p {
 background-color: rgba(252, 252, 78, 0.829);
 }
 
+/*End of css code for EastAsianCalligraphy.html file*/
 
 
 #SouthernBody {
   background-color: rgb(204, 235, 225);
 }
-
 
 @font-face {
   font-family: SouthernAsian;
@@ -131,7 +134,7 @@ background-color: rgba(252, 252, 78, 0.829);
 
 #picSouthern {
   border: 10px solid;
-  width: 300px;
+  width: 400px;
 }
 
 @keyframes rotate {
@@ -144,6 +147,9 @@ background-color: rgba(252, 252, 78, 0.829);
   float: right;
   animation: rotate 5s infinite linear
   }
+
+/*End of css code for SouthernAsian.html*/
+
 
 
 #WesternBody{
@@ -198,6 +204,8 @@ background-color: rgba(252, 252, 78, 0.829);
   height: 100px;
 }
 
+/*End of css code for Western.html file*/
+
 
 #IslamicBody {
   background-color: rgba(99, 53, 142, 0.795);
@@ -235,4 +243,13 @@ background-color: rgba(252, 252, 78, 0.829);
   width: 100px;
 }
 
+/*End of css code for Islamic.html file*/
 
+.Home {
+  border: 2px solid;
+  border-color: black;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+/*End of general css codes*/
