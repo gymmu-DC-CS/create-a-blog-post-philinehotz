@@ -87,6 +87,7 @@ p {
 }
 
 #EAauswahlChina {
+  border: 10px solid;
   width: 450px;
 }
 
@@ -122,6 +123,7 @@ background-color: rgba(252, 252, 78, 0.829);
 }
 
 #picSouthern {
+  border: 10px solid;
   width: 300px;
 }
 
@@ -164,6 +166,7 @@ background-color: rgba(252, 252, 78, 0.829);
 }
 
 #picwestern {
+  border: 10px solid;
   width: 450px
 }
 
@@ -217,6 +220,7 @@ background-color: rgba(252, 252, 78, 0.829);
 }
 
 #picislamic {
+  border: 10px solid;
   width: 450px
 }
 
