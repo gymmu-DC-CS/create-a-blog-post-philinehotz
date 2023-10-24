@@ -52,6 +52,11 @@ p {
 
 /*for the space a single <p><p/> in the html file*/
 
+
+#pen {
+  width: 100px;
+}
+
 @font-face {
   font-family: EastAsian;
   src: url(fonts/EastAsianCalligraphyMingImperial-5308.ttf);
@@ -108,6 +113,11 @@ p {
   margin-top: 10px;
   text-align: center;
 }
+
+#picSouthern {
+  width: 300px;
+}
+
 
 #WesternBody{
   background-color: rgba(165, 42, 42, 0.784);
