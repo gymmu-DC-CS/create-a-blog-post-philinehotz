@@ -250,6 +250,9 @@ background-color: rgba(252, 252, 78, 0.829);
   border-color: black;
   border-radius: 6px;
   padding: 10px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 /*End of general css codes*/
