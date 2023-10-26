@@ -44,19 +44,15 @@ h1 {
   padding: 20px;
   width: 55%;
 }
-/*centering doesn't work, tried different methods*/
 
 p {
   white-space: nowrap;
 }
-
 /*for the space a single <p><p/> in the html file*/
-
 
 #pen {
   width: 100px;
 }
-
 
 #indexBody {
   background-color: rgb(255, 231, 203);
@@ -75,7 +71,6 @@ p {
 }
 
 /*End of css code for index.html file*/
-
 
 @font-face {
   font-family: EastAsian;
@@ -255,6 +250,8 @@ background-color: #F0F0A0;
   75%  {left:400px; top:200px;}
   100% {left:400px; top:300px;}
 }
+/*inspiration from this Website: https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation3*/
+
 
 #p1 {
   height: 100px;
@@ -274,7 +271,6 @@ background-color: #F0F0A0;
 #IslamicBody {
   background-color: #D0B6F0;
 }
-
 /* most colors from adobe color-wheel*/
 
 
@@ -282,6 +278,7 @@ background-color: #F0F0A0;
   font-family: IslamicCalligraphy;
   src: url(fonts/IslamicCalligraphyBahlullFreeVersionRegular-8M1VJ.ttf);
 }
+
 .Islamic {
   display: inline-block;
   border: 3px solid black;
@@ -290,11 +287,13 @@ background-color: #F0F0A0;
   font-family: IslamicCalligraphy;
   src: url(fonts/IslamicCalligraphyBahlullFreeVersionRegular-8M1VJ.ttf);
 }
+
 #h1Islamic {
   font-family: IslamicCalligraphy;
   font-size: 80px;
   text-align: center;
 }
+
 #TextIslamic {
   margin-top: 10px;
   text-align: center;
@@ -343,4 +342,4 @@ background-color: #F0F0A0;
   left: 16px;
 }
 
-/*End of general css codes*/
+/*End of general css code*/
