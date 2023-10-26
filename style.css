@@ -62,6 +62,18 @@ p {
   background-color: rgb(255, 231, 203);
 }
 
+.mailto {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.tryyourself {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
 /*End of css code for index.html file*/
 
 
