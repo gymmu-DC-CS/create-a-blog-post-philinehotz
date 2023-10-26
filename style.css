@@ -59,7 +59,7 @@ p {
 
 
 #indexBody {
-  background-color: bisque;
+  background-color: rgb(255, 231, 203);
 }
 
 /*End of css code for index.html file*/
@@ -100,14 +100,14 @@ p {
 }
 
 #EastBody {
-background-color: rgba(252, 252, 78, 0.829);
+background-color: #F0F0A0;
 }
 
 /*End of css code for EastAsianCalligraphy.html file*/
 
 
 #SouthernBody {
-  background-color: rgb(204, 235, 225);
+  background-color: #BAF0ED;
 }
 
 @font-face {
@@ -153,7 +153,7 @@ background-color: rgba(252, 252, 78, 0.829);
 
 
 #WesternBody{
-  background-color: rgba(165, 42, 42, 0.784);
+  background-color: #F0C78F ;
 }
 
 @font-face {
@@ -208,8 +208,10 @@ background-color: rgba(252, 252, 78, 0.829);
 
 
 #IslamicBody {
-  background-color: rgba(99, 53, 142, 0.795);
+  background-color: #D0B6F0;
 }
+
+/* most colors from adobe color-wheel*/
 
 
 @font-face {
