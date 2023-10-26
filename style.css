@@ -304,6 +304,13 @@ background-color: #F0F0A0;
   right: 680px;
 }
 
+#islamicimg {
+  width: 200px;
+  position: absolute;
+  top: 300px;
+  right: 200px;
+}
+
 /*End of css code for Islamic.html file*/
 
 .Home {
