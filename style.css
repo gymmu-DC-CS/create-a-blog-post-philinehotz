@@ -133,6 +133,9 @@ background-color: #F0F0A0;
 }
 
 #picSouthern {
+  position: absolute;
+  top: 250px;
+  left: 200px;
   border: 10px solid;
   width: 400px;
 }
@@ -144,8 +147,19 @@ background-color: #F0F0A0;
 
 #Lotus {
   width: 100px;
-  float: right;
+  position: absolute;
+  top: 270px;
+  right: 310px;
   animation: rotate 5s infinite linear
+  }
+
+  #sidenote {
+    display: inline-block;
+    border: 6px solid;
+    padding: 9px;
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
   }
 
 /*End of css code for SouthernAsian.html*/
