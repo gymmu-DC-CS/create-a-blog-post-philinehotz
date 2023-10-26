@@ -311,6 +311,14 @@ background-color: #F0F0A0;
   right: 200px;
 }
 
+#workofart {
+  writing-mode: vertical-lr;
+  position: absolute;
+  top: 305px;
+  right: 180px;
+}
+/*writing-mode code found on w3schools*/
+
 /*End of css code for Islamic.html file*/
 
 .Home {
