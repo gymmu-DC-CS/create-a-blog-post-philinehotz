@@ -99,7 +99,16 @@ p {
 #EAauswahlChina {
   border: 10px solid;
   width: 450px;
+
 }
+
+#EAauswahlChina:hover {
+  box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+	transform: rotate(360deg);
+  transition-duration: 10s;
+	transform: rotate(360deg);
+}
+/*Inspiration from this website: https://thenewcode.com/286/Introduction-to-CSS-Transitions*/
 
 #ChinaWord {
   width: 200px;
